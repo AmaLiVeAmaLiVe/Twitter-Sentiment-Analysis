@@ -21,18 +21,23 @@ This project aims to provide an end-to-end solution for sentiment analysis on Tw
 1. Clone the repository:
 
    git clone https://github.com/yourusername/twitter-sentiment-analysis.git
+   
    cd twitter-sentiment-analysis
 
 2. Install the required packages:
+
    pip install -r requirements.txt
 
 ## Usage
 
 1. Twitter Sentiment analysis:
+   
    jupyter notebook src/twitter_sentiment_analysis.ipynb
 
 2. Testing the model:
+   
    jupyter notebook src/testing_model.ipynb
 
 3. Tests:
+   
    python tests/test_preprocessing.py
